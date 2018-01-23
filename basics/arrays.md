@@ -10,12 +10,12 @@ var myCarArray = ["Volvo","Merc","BMW"];
 var myCarArray = new Array("Volvo","Merc","BMW");
 ```
 
-#Accessing Array
+# Accessing Array
 This statement is used if you know the index of the item you want to Accessing
 ```js
 var mycar = myArray[0];
 ```
-#Iterating through the array
+# Iterating through the array
 ```js
 var myCarArray = ["Volvo","Merc","BMW"];
 //Using for Loop
