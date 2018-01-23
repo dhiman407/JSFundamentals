@@ -27,3 +27,26 @@ myCarArray.forEach(function(item){
   console.log(item);
 });
 ```
+
+# Array Sort
+String array can be sorted by sort()
+```js
+var myCarArray = ["Volvo","Merc","BMW"];
+myCarArray.sort();
+```
+
+For Numeric sort, default sort method produce incorrect results because number are sorted as strings "25" is bigger than "100" because 2 is greater than "1".
+
+It can be fixed using compare function
+
+```js
+var age = [40,100,1,5,26,10,200,300];
+//Ascending Sort
+age.sort(function(a,b){
+  return a-b;
+});
+//Descending sort
+age.sort(function(a,b){
+  return b-a;
+});
+```
