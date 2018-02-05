@@ -11,11 +11,11 @@ Suppose, we have 3 nested elements FORM >  DIV > P with a handler on each of the
   </div>
 </form>
 ```
-A click on the inner <p> first runs onclick:
+A click on the inner "p" first runs onclick:
 
-1) on that <p>
-2) Then on the outer <div>
-3) Then on the outer <form>
+1) on that "p" element
+2) Then on the outer "div"
+3) Then on the outer "form"
 4) So on upwards till the document object.
 
 # event.target
