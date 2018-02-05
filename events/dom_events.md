@@ -13,4 +13,10 @@ var btn =  document.querySelector('button');
 btn.onclick = function(){
   alert('Button Clicked!');
 };
+
+// OR
+
+btn.addEventListener('click',function(){
+  alert('Button Clicked!');
+});
 ```
